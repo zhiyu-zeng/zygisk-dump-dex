@@ -28,6 +28,6 @@ just flash-release # flash the zip to your device (only for KernelSU)
 ## Usage
 
 1. Install the module via KernelSU and reboot your device.
-2. Put the package name of the app you want to dump dex into `/data/adb/module/dump_dex/list.txt`.
+2. Put the package name of the app you want to dump dex into `/data/adb/modules/dump_dex/list.txt`.
 3. Lunch the app you want to dump dex.
 4. The dex file will be dumped into `/data/data/<package_name>/dexes/`.
