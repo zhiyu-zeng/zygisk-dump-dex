@@ -4,7 +4,7 @@ default:
 [doc('Build rust library for android')]
 build:
     # cargo ndk -t arm64-v8a -t armeabi-v7a -t x86 -t x86_64 --platform=29 --bindgen build
-    cargo ndk -t arm64-v8a --platform=29 --bindgen build
+    cargo ndk -t arm64-v8a --platform=29 build --release
 
 [doc('Build a zip module for KernelSU')]
 package: build
